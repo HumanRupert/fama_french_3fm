@@ -75,7 +75,7 @@ excess_returns = pd.DataFrame(data=excess_returns.values,
 excess_returns_cum = excess_returns.cumsum()
 excess_returns_cum.plot.line()
 ```
-![image info]([https://hackernoon.imgix.net/images/c4H5dJO11HMcVyXTq7bAl2kz88I2-qe5q3110.jpeg)
+![image info](https://hackernoon.imgix.net/images/c4H5dJO11HMcVyXTq7bAl2kz88I2-qe5q3110.jpeg)
 
 ## Beta
 Since beta is the slope of the regression line, we can calculate it by running multiple OLS regressions–where factors are predictors and excess return is the dependent variable.
